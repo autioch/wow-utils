@@ -1,0 +1,330 @@
+[
+  [
+    "#showtooltip",
+    207
+  ],
+  [
+    "/startattack",
+    56
+  ],
+  [
+    "/script UIErrorsFrame:Clear()",
+    46
+  ],
+  [
+    "/stopcasting",
+    28
+  ],
+  [
+    "/focus",
+    19
+  ],
+  [
+    "/script SetRaidTarget(\"target\",4);",
+    14
+  ],
+  [
+    "/cast [nomod] Hearthstone",
+    14
+  ],
+  [
+    "/dismount [noflying, mounted]",
+    14
+  ],
+  [
+    "/use 14",
+    14
+  ],
+  [
+    "/petattack",
+    12
+  ],
+  [
+    "/cleartarget",
+    11
+  ],
+  [
+    "/use 10",
+    10
+  ],
+  [
+    "/cast [mounted] Crusader Aura",
+    7
+  ],
+  [
+    "/use 13",
+    7
+  ],
+  [
+    "/dismount [mod:alt, mounted]",
+    7
+  ],
+  [
+    "/script SetRaidTarget(\"party4\",5);",
+    7
+  ],
+  [
+    "/script SetRaidTarget(\"player\",4);",
+    7
+  ],
+  [
+    "/cancelaura Ice Block",
+    6
+  ],
+  [
+    "/cast [mod:shift] Hearthstone",
+    6
+  ],
+  [
+    "/script SetRaidTarget(\"party2\",3);",
+    6
+  ],
+  [
+    "/equipslot 16 Aledar's Battlestar",
+    5
+  ],
+  [
+    "/cast Hammer of Wrath",
+    5
+  ],
+  [
+    "/cast [nomod,noflyable,nomounted] Summon Charger",
+    5
+  ],
+  [
+    "/cast Avenging Wrath",
+    5
+  ],
+  [
+    "/cast [mod:shift] Argent Crusader's Tabard",
+    5
+  ],
+  [
+    "/cast [mod:shift] Cooking",
+    5
+  ],
+  [
+    "/script SetRaidTarget(\"player\",1);",
+    5
+  ],
+  [
+    "/cast [mod:alt] Jeeves",
+    5
+  ],
+  [
+    "/script SetRaidTarget(\"party3\",2);",
+    5
+  ],
+  [
+    "/cast [nomod] Engineering",
+    5
+  ],
+  [
+    "/cast Berserker Stance",
+    4
+  ],
+  [
+    "/cast Battle Stance",
+    4
+  ],
+  [
+    "#showtooltip Charger",
+    4
+  ],
+  [
+    "/cast [nomod] Dalaran Hearthstone",
+    4
+  ],
+  [
+    "/cast [mod:alt] First Aid",
+    4
+  ],
+  [
+    "/cast [mod:alt] Garrison Hearthstone",
+    4
+  ],
+  [
+    "/script SetRaidTarget(\"party1\",4);",
+    4
+  ],
+  [
+    "/cast [mod:shift] Mass Resurrection",
+    4
+  ],
+  [
+    "/equipslot 17 Titansteel Shield Wall",
+    4
+  ],
+  [
+    "#showtooltip Hammer of Wrath",
+    4
+  ],
+  [
+    "/targetlasttarget",
+    4
+  ],
+  [
+    "#showtooltip Summon Charger",
+    4
+  ],
+  [
+    "/cast Devouring Plague",
+    4
+  ],
+  [
+    "/script SetRaidTarget(\"party4\",1);",
+    4
+  ],
+  [
+    "/cast Lifeblood",
+    3
+  ],
+  [
+    "/script SetRaidTarget(\"party3\",7);",
+    3
+  ],
+  [
+    "#showtooltip Judgement of Justice",
+    3
+  ],
+  [
+    "/script SetRaidTarget(\"party1\",2);",
+    3
+  ],
+  [
+    "/cast Psychic Scream",
+    3
+  ],
+  [
+    "#showtooltip Judgement of Light",
+    3
+  ],
+  [
+    "/cast Judgement of Justice",
+    3
+  ],
+  [
+    "/cast Polymorph",
+    3
+  ],
+  [
+    "/cast Counterspell",
+    3
+  ],
+  [
+    "/cast [target=focus] Counterspell",
+    3
+  ],
+  [
+    "/cast [nomod,flyable,nomounted] Blue Wind Rider",
+    3
+  ],
+  [
+    "/cast [mod:shift] MOLL-E",
+    3
+  ],
+  [
+    "/cast [nomod] Cooking Fire",
+    3
+  ],
+  [
+    "/cast [mod:ctrl] Garrison Hearthstone",
+    3
+  ],
+  [
+    "/cast Frenzied Regeneration",
+    3
+  ],
+  [
+    "/cast [mod:alt] Mass Resurrection",
+    3
+  ],
+  [
+    "/cast [mod:ctrl] Mass Resurrection",
+    3
+  ],
+  [
+    "/cast [nomod] Jewelcrafting",
+    3
+  ],
+  [
+    "/cast [mod:shift] Prospecting",
+    3
+  ],
+  [
+    "/click StaticPopup1Button1",
+    3
+  ],
+  [
+    "/script SetRaidTarget(\"party2\",2);",
+    3
+  ],
+  [
+    "/script SetRaidTarget(\"party3\",3);",
+    3
+  ],
+  [
+    "/cast Survival Instincts",
+    3
+  ],
+  [
+    "/cast [mod:ctrl] First Aid",
+    3
+  ],
+  [
+    "/cast Judgement of Light",
+    3
+  ],
+  [
+    "/cast Feed Pet",
+    3
+  ],
+  [
+    "/cancelaura Deterrence",
+    3
+  ],
+  [
+    "#showtooltip Charge",
+    3
+  ],
+  [
+    "/cast [mod:shift] Black Drake",
+    3
+  ],
+  [
+    "/cast Charge",
+    3
+  ],
+  [
+    "/cast Rend",
+    3
+  ],
+  [
+    "/cancelaura Bladestorm",
+    3
+  ],
+  [
+    "/cast [nomod,flyable, nomounted] Swift Flight Form(Shapeshift)",
+    3
+  ],
+  [
+    "/cast [nomod] Disenchant",
+    3
+  ],
+  [
+    "/cast [mod:shift] Enchanting",
+    3
+  ],
+  [
+    "/cast Defensive Stance",
+    3
+  ],
+  [
+    "#showtooltip Swift Flight Form(Shapeshift)",
+    3
+  ],
+  [
+    "/script SetRaidTarget(\"asdfasd\",8);",
+    3
+  ]
+]
