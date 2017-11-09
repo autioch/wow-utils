@@ -1,7 +1,8 @@
-const readerOutput = require('../../output/reader.json');
-const flattenMacros = require('./flattenMacros');
-const saveJson = require('../utils/saveJson');
+const parseMacros = require('./parseMacros');
+const { saveJson } = require('../utils');
 
-const parsedMacros = flattenMacros(readerOutput);
+module.exports = function parser(readerOutput) {
+  const parsedMacros = parseMacros(readerOutput);
 
-saveJson(parsedMacros, 'parser');
+  return saveJson(parsedMacros, 'parser').then(() => parsedMacros);
+};

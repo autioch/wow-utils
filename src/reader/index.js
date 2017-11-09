@@ -1,10 +1,10 @@
-const path = require('path');
-const findMacroFiles = require('./findMacroFiles');
-const saveJson = require('../utils/saveJson');
+const { findFiles, saveJson } = require('../utils');
 const parseFile = require('./parseFile');
 
-const macroDir = path.join(__dirname, '..', '..', 'examples');
+const MACRO_FILE = 'macros-cache.txt';
 
-findMacroFiles(macroDir)
-  .map((fileName) => parseFile(fileName))
-  .then((parsedFiles) => saveJson(parsedFiles, 'reader'));
+module.exports = function reader(macroDir) {
+  return findFiles(macroDir, MACRO_FILE)
+    .map((fileName) => parseFile(fileName))
+    .tap((parsedFiles) => saveJson(parsedFiles, 'reader'));
+};

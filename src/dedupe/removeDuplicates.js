@@ -52,7 +52,7 @@ module.exports = function removeDuplicates(macros) {
 
   uniqeMacros.forEach((macro) => {
     PROPS.forEach((prop) => {
-      macro[prop] = uniq(macro[prop]);
+      macro[prop] = uniq(macro[prop]).sort();
     });
   });
 
