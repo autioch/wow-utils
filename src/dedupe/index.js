@@ -1,16 +1,10 @@
-const parserOutput = require('../../output/parser.json');
-const removeDuplicates = require('./removeDuplicates');
+const merge = require('./merge');
+const cleanup = require('./cleanup');
 const saveJson = require('../utils/saveJson');
-const findCommonWords = require('./findCommonWords');
-const findCommonLines = require('./findCommonLines');
-const group = require('./group');
 
-const macros = removeDuplicates(parserOutput);
+module.exports = function dedupe(parsedMacros) {
+  const uniqueMacros = merge(parsedMacros);
+  const cleanMacros = cleanup(uniqueMacros);
 
-console.log(`${parserOutput.length} macros at start`);
-console.log(`${macros.length} unique macros`);
-
-saveJson(macros, 'grouper.unique');
-saveJson(findCommonWords(macros), 'grouper.words');
-saveJson(findCommonLines(macros), 'grouper.lines');
-saveJson(group(macros), 'grouper.groups');
+  saveJson(cleanMacros, 'dedupe').then(() => cleanMacros);
+};

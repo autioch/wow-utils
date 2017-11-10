@@ -1,4 +1,6 @@
 module.exports = {
   findFiles: require('./findFiles'),
-  saveJson: require('./saveJson')
+  saveJson: require('./saveJson'),
+  tagDefinitions: require('./tagDefinitions'),
+  tagGroups: require('./tagGroups')
 };

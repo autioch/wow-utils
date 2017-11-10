@@ -1,5 +1,5 @@
 /* eslint id-blacklist: 0 */
-const tagDefinitions = require('./tagDefinitions');
+const { tagDefinitions } = require('../utils');
 
 module.exports = function tag(list) {
   list.forEach((item) => {
@@ -8,7 +8,7 @@ module.exports = function tag(list) {
     item.tags = [];
     tagDefinitions.forEach((definition) => {
       if (definition.keywords.some((keyword) => haystack.includes(keyword))) {
-        item.tags.push(definition.label);
+        item.tags.push(definition.id);
       }
     });
   });

@@ -11,7 +11,9 @@ module.exports = function writeConfig(config) {
     const { key, value } = setting;
 
     if (Array.isArray(value)) {
+      lines.push('');
       lines.push(...value.map((val) => `SET ${key} "${val}"    ------------------------------------------`));
+      lines.push('');
     } else {
       lines.push(`SET ${key} "${value}"`);
     }
