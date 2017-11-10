@@ -1,4 +1,4 @@
-const { findFiles, saveJson } = require('../utils');
+const { findFiles, saveJson } = require('../../utils');
 const parseFile = require('./parseFile');
 
 const MACRO_FILE = 'macros-cache.txt';

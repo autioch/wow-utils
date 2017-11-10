@@ -1,6 +1,6 @@
 const merge = require('./merge');
 const cleanup = require('./cleanup');
-const saveJson = require('../utils/saveJson');
+const saveJson = require('../../utils/saveJson');
 
 module.exports = function dedupe(parsedMacros) {
   const uniqueMacros = merge(parsedMacros);
