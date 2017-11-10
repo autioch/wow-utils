@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss">
   .tag-group-list {
+    flex: none;
     // position: fixed;
     // top: 0;
     // left: 0;

@@ -18,6 +18,12 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  color: #444;
+  font-family: monospace;
+  font-size: 12px;
+}
+
 body, html {
   border: 0;
   margin: 0;
@@ -25,6 +31,7 @@ body, html {
   width: 100%;
   height: 100%;
 }
+
 #app {
   display: flex;
   width: 100%;

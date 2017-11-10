@@ -5,6 +5,10 @@ import seed from './seed';
 
 Vue.use(Vuex);
 
+function getSelectedTagLabels(tags) {
+  return tags.filter((tag) => tag.isSelected).map((tag) => tag.label);
+}
+
 const store = new Vuex.Store({
   state: seed,
   mutations: {
@@ -18,6 +22,23 @@ const store = new Vuex.Store({
 
         return false;
       }));
+
+      const selectedTags = state.tagGroups.reduce((tags, group) => tags.concat(...getSelectedTagLabels(group.tags)), []);
+
+      if (selectedTags.length) {
+        state.macros.forEach((macro) => {
+          macro.isHidden = macro.tags.every((tag) => selectedTags.every((selectedTag) => selectedTag !== tag));
+        });
+      } else {
+        state.macros.forEach((macro) => {
+          macro.isHidden = false;
+        });
+      }
+    }
+  },
+  getters: {
+    visibleMacros(state) {
+      return state.macros.filter((macro) => !macro.isHidden);
     }
   }
 });

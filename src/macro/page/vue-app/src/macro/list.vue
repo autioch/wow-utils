@@ -12,7 +12,7 @@ export default {
   },
   data(){
     return {
-      list: this.$store.state.macros
+      list: this.$store.getters.visibleMacros
     };
   }
 }
