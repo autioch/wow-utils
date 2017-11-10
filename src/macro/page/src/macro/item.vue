@@ -21,15 +21,18 @@
       </ul>
     </div>
     <div class="macro__content-wrapper">
-      <ol class="macro__content">
-        <li v-for="content in item.content">{{content}}</li>
-      </ol>
+      <lines v-bind:lines="item.content"></lines>
     </div>
   </div>
 </template>
 
 <script>
+  import Lines from './lines.vue';
+
   export default {
+    components: {
+      Lines
+    },
     props: ['item'],
   }
 </script>
@@ -87,10 +90,10 @@
   }
 
   .macro__icon {
-    width: 12em;
+    width: 14em;
   }
 
   .macro__tag {
-    width: 8em;
+    width: 7em;
   }
 </style>
