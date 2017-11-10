@@ -20,7 +20,7 @@ module.exports = function mergeConfig(parsedFiles) {
   }, {});
 
   settingsArray.forEach((setting) => {
-    const values = uniq(settingsDict[setting.key]);
+    const values = uniq(settingsDict[setting.key]).sort();
 
     if (values.length === 1) {
       [setting.value] = values;

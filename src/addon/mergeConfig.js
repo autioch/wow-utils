@@ -10,7 +10,7 @@ module.exports = function mergeConfig(parsedFiles) {
       };
     }
 
-    addons[parsedFile.fileName][parsedFile.hash].files.push(parsedFile.wtfDate);
+    addons[parsedFile.fileName][parsedFile.hash].files.push(parsedFile.wtfDate).sort();
 
     return addons;
   }, {});
