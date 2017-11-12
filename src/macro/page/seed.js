@@ -1,12 +1,12 @@
 /* eslint no-magic-numbers: 0 */
-import macros from './macros.json';
+import macros from 'macros.json';
 
 const tagGroups = [{
   label: 'Class',
   tags: [{
     id: 0,
     label: 'Paladin',
-    isSelected: true,
+    isSelected: false,
     color: '#F58CBA'
   }, {
     id: 1,
