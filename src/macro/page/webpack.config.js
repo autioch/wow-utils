@@ -48,7 +48,8 @@ const config = {
     }]
   },
   plugins: [
-    new ExtractTextPlugin('main.css'),
+    // new ExtractTextPlugin('main.css'),
+    new ExtractTextPlugin(`main${NAME_SUFFIX}.css`),
     new HtmlWebpackPlugin({
       template: join(PATH_SOURCE, 'index.html'),
       filename: 'index.html',
@@ -81,8 +82,6 @@ const config = {
 };
 
 if (IS_PRODUCTION) {
-  config.devtool = '#source-map';
-
   // http://vue-loader.vuejs.org/en/workflow/production.html
   config.plugins.push(
     new webpack.DefinePlugin({
