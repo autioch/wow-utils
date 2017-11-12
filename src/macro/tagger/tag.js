@@ -1,5 +1,5 @@
 /* eslint id-blacklist: 0 */
-const { tagDefinitions } = require('../tagDefinitions');
+const tagDefinitions = require('../tagDefinitions');
 
 module.exports = function tag(list) {
   list.forEach((item) => {

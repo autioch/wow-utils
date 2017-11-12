@@ -6,5 +6,5 @@ module.exports = function dedupe(parsedMacros) {
   const uniqueMacros = merge(parsedMacros);
   const cleanMacros = cleanup(uniqueMacros);
 
-  saveJson(cleanMacros, 'dedupe').then(() => cleanMacros);
+  return saveJson(cleanMacros, 'dedupe').then(() => cleanMacros);
 };

@@ -11,6 +11,7 @@ module.exports = function parseFile(filePath) {
       const pathParts = filePath.split(GLOB_PATH_SEP);
       const wtfDate = pathParts.slice(0);
 
+      /* TODO Fix this. */
       wtfDate.shift();
       wtfDate.shift();
       wtfDate.shift();
