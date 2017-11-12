@@ -17,7 +17,7 @@ module.exports = function mergeConfig(parsedFiles) {
   return parsedFiles.reduce((addons, parsedFile) => {
     const arrayHash = setArrayHash(addons, parsedFile);
 
-    arrayHash.files.push(parsedFile.wtfDate);
+    arrayHash.files.push(parsedFile.filePath);
     arrayHash.files.sort();
 
     return addons;

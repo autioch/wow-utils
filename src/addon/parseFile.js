@@ -1,27 +1,27 @@
 const crypto = require('crypto'); // eslint-disable-line no-shadow
 const bluebird = require('bluebird');
 const fs = bluebird.promisifyAll(require('fs'));
+const path = require('path');
 
 const GLOB_PATH_SEP = '/';
 
-module.exports = function parseFile(filePath) {
+function extractFileName(filePath) {
+  const parts = filePath.split(GLOB_PATH_SEP).slice(0);
+
+  return parts.pop().replace('.lua', '');
+}
+
+function createHash(fileContents) {
+  return crypto.createHash('md5').update(fileContents).digest('hex');
+}
+
+module.exports = function parseFile(filePath, dir) {
   return fs
     .readFileAsync(filePath, 'utf8')
-    .then((fileContents) => {
-      const pathParts = filePath.split(GLOB_PATH_SEP);
-      const wtfDate = pathParts.slice(0);
-
-      /* TODO Fix this. */
-      wtfDate.shift();
-      wtfDate.shift();
-      wtfDate.shift();
-
-      return {
-        hash: crypto.createHash('md5').update(fileContents).digest('hex'),
-        filePath,
-        fileSize: fileContents.length,
-        fileName: pathParts.slice(0).pop().replace('.lua', ''),
-        wtfDate: wtfDate.join('/')
-      };
-    });
+    .then((fileContents) => ({
+      hash: createHash(fileContents),
+      filePath: path.relative(dir, filePath),
+      fileSize: fileContents.length,
+      fileName: extractFileName(filePath)
+    }));
 };
