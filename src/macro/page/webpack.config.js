@@ -11,12 +11,14 @@ const PORT = 8080;
 const PATH_PROJECT = join(__dirname, '..', '..', '..');
 const PATH_SOURCE = join(__dirname, '.');
 const PATH_BUILD = join(PATH_PROJECT, 'output', 'page');
+const PATH_DATA = 'data';
+const PATH_ASSETS = 'assets';
 
 const config = {
   entry: join(PATH_SOURCE, 'index.js'),
   output: {
     path: PATH_BUILD,
-    filename: `index${NAME_SUFFIX}.js`
+    filename: join(PATH_ASSETS, `index${NAME_SUFFIX}.js`)
   },
   module: {
     rules: [{
@@ -43,13 +45,19 @@ const config = {
       test: /\.(png|jpg|gif|svg)$/,
       loader: 'file-loader',
       options: {
-        name: '[name].[ext]?[hash]'
+        name: join(PATH_DATA, '[name].[ext]')
+      }
+    }, {
+      test: /\.json$/i,
+      loader: 'file-loader',
+      options: {
+        name: join(PATH_DATA, '[name].[ext]')
       }
     }]
   },
   plugins: [
     // new ExtractTextPlugin('main.css'),
-    new ExtractTextPlugin(`main${NAME_SUFFIX}.css`),
+    new ExtractTextPlugin(join(PATH_ASSETS, `main${NAME_SUFFIX}.css`)),
     new HtmlWebpackPlugin({
       template: join(PATH_SOURCE, 'index.html'),
       filename: 'index.html',
