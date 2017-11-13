@@ -7,7 +7,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 /* Setup */
 const IS_PRODUCTION = process.argv.indexOf('-p') > -1;
 const NAME_SUFFIX = new Date().getTime() + (IS_PRODUCTION ? '.min' : '');
-const PORT = 8080;
+const PORT = 9000;
 const PATH_PROJECT = join(__dirname, '..', '..', '..');
 const PATH_SOURCE = join(__dirname, '.');
 const PATH_BUILD = join(PATH_PROJECT, 'output', 'page');
@@ -40,9 +40,13 @@ const config = {
     }, {
       test: /\.js$/,
       loader: 'babel-loader',
-      exclude: /node_modules/
+      exclude: /node_modules/,
+      options: {
+        presets: ['env'],
+        plugins: [require('babel-plugin-transform-object-rest-spread')]
+      }
     }, {
-      test: /\.(png|jpg|gif|svg)$/,
+      test: /\.(png|jpg|gif|svg|ico)$/,
       loader: 'file-loader',
       options: {
         name: join(PATH_DATA, '[name].[ext]')

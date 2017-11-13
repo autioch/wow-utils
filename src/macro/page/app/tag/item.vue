@@ -2,7 +2,7 @@
   <li
     class="tag" v-bind:class="{ 'is-selected' : tag.isSelected }"
     @click="toggleTag"
-    v-bind:style="{ 'background-color': '' /*tag.color */}"
+    v-bind:style="{ 'background-color': tag.color }"
   >
     <span>{{ tag.label}}</span>
   </li>

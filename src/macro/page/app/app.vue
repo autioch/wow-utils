@@ -10,6 +10,9 @@ import TagList from './tag/list.vue';
 import MacroList from './macro/list.vue';
 
 export default {
+  created() {
+    this.$store.dispatch('fetchData')
+  },
   components: {
     TagList,
     MacroList
