@@ -1,19 +1,52 @@
-import leven from 'leven';
+/* eslint no-underscore-dangle: 0 */
+// const leven = require('leven');
 
-/* eslint no-magic-numbers: 0 */
-export default function markClusters(points, epsilon = 30, minPts = 3) {
-  let clusterId = 0;
+// function defaultDistanceFunction(pointA, pointB) {
+//   return leven(pointA.content.join('\n'), pointB.content.join('\n'));
+// }
 
-  function findNeighbours(masterPoint) {
+function * idGenerator() {
+  let nextId = 0;
+
+  while (true) {
+    nextId++; // eslint-disable-line no-plusplus
+    yield nextId.toString();
+  }
+}
+
+function neighbourFinder(maxDistance, points, distanceFn) {
+  const cache = {};
+
+  return function findNeighbours(mainPoint) {
     return points.filter((point) => {
-      if (masterPoint === point) {
+      if (mainPoint === point) {
         return false;
       }
-      const distance = leven(masterPoint.content.join('\n'), point.content.join('\n'));
+      const mainIndex = mainPoint.__arrayIndex;
+      const pointIndex = point.__arrayIndex;
+      const cacheIndex = mainIndex > pointIndex ? `${mainIndex}+${pointIndex}` : `${pointIndex}+${mainIndex}`;
 
-      return distance <= epsilon;
+      if (cache[cacheIndex] === undefined) { // eslint-disable-line no-undefined
+        cache[cacheIndex] = distanceFn(mainPoint, point) <= maxDistance;
+      }
+
+      return cache[cacheIndex];
     });
-  }
+  };
+}
+
+function createIds(points) {
+  points.forEach((point, index) => {
+    point.__arrayIndex = index;
+  });
+}
+
+/* eslint no-magic-numbers: 0 */
+export default function markClusters(points, maxDistance = 30, minNeighbours = 3, distanceFn) {
+  createIds(points);
+
+  const generateId = idGenerator();
+  const findNeighbours = neighbourFinder(maxDistance, points, distanceFn);
 
   points.forEach((point) => {
     if (point.clusterId) {
@@ -22,27 +55,26 @@ export default function markClusters(points, epsilon = 30, minPts = 3) {
 
     const neighbours = findNeighbours(point);
 
-    if (neighbours.length < minPts) {
+    if (neighbours.length < minNeighbours) {
       point.clusterId = 'Noise';
 
       return;
     }
 
-    clusterId++; // eslint-disable-line no-plusplus
-    point.clusterId = clusterId.toString();
+    point.clusterId = generateId();
 
     neighbours.forEach((neighbour) => {
       if (neighbour.clusterId === 'Noise') {
-        neighbour.clusterId = clusterId.toString();
+        neighbour.clusterId = point.clusterId;
       }
       if (neighbour.clusterId) {
         return;
       }
-      neighbour.clusterId = clusterId.toString();
+      neighbour.clusterId = point.clusterId;
 
       const nextNeighbours = findNeighbours(neighbour);
 
-      if (neighbours.length >= minPts) {
+      if (neighbours.length >= minNeighbours) {
         neighbours.push(...nextNeighbours);
       }
     });
