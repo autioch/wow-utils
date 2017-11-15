@@ -32,6 +32,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.4",
     "html-webpack-plugin": "^2.30.1",
+    "leven": "^2.1.0",
     "lodash.compact": "^3.0.1",
     "lodash.uniq": "^4.5.0",
     "node-sass": "^4.5.3",

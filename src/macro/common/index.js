@@ -1,7 +1,7 @@
 const findCommon = require('./findCommon');
 const saveJson = require('../../utils/saveJson');
 
-module.exports = function commnon(minifiedMacros) {
+module.exports = function extractCommon(minifiedMacros) {
   const common = findCommon(minifiedMacros);
 
   return saveJson(common, 'common').then(() => minifiedMacros);
