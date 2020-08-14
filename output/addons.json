@@ -388,7 +388,8 @@
         "2012.12.18\\MINDBLOWING\\EU Arena-tournament.com 3.3.5\\Eilan\\SavedVariables\\PowerAuras.lua",
         "2012.12.18\\RHAPSODY\\EU Arena-tournament.com 3.3.5\\Shameless\\SavedVariables\\PowerAuras.lua",
         "2012.12.18\\RHAPSODY\\EU Arena-tournament.com 3.3.5\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua",
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\PowerAuras.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\PowerAuras.lua"
       ]
     },
     "f6e1a18487ef8e1acc610e4df9db4504": {
@@ -401,15 +402,19 @@
         "2016.08.09\\ARALD\\SavedVariables\\PowerAuras.lua",
         "2016.08.09\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
         "2016.08.20\\ARALD\\SavedVariables\\PowerAuras.lua",
-        "2016.08.20\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
         "2016.08.20\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "2016.08.20\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
         "2017.08.08\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
         "2017.10.08\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
         "2017.10.19\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
         "2017.11.05\\ARALD\\SavedVariables\\PowerAuras.lua",
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
         "2017.11.05\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
-        "2017.11.05\\EMIRU123\\SavedVariables\\PowerAuras.lua"
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
+        "2017.11.05\\EMIRU123\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\ARALD\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\AUTIOCH\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\PowerAuras.lua"
       ]
     },
     "10df048c5c326e554ad88af7c38bec2b": {
@@ -473,11 +478,14 @@
         "2016.08.09\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
         "2016.08.09\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\PowerAuras.lua",
         "2016.08.20\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
-        "2016.08.20\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\PowerAuras.lua",
         "2016.08.20\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "2016.08.20\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\PowerAuras.lua",
         "2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
         "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\PowerAuras.lua",
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\PowerAuras.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\PowerAuras.lua"
       ]
     },
     "d5432c6a5bbc65188aa980a01defdfc5": {
@@ -860,7 +868,8 @@
     "7ec5000056cd1a04e607415f5afc1e86": {
       "fileSize": 9489,
       "files": [
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\PowerAuras.lua"
       ]
     }
   },
@@ -1018,13 +1027,80 @@
     "d4a565b91c0962eed6379d46b2569b57": {
       "fileSize": 5504,
       "files": [
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\AtlasLoot.lua"
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\AtlasLoot.lua"
       ]
     },
     "712ba8478b34e8b63f018540029d2ca6": {
       "fileSize": 2508,
       "files": [
-        "2017.11.05\\EMIRU123\\SavedVariables\\AtlasLoot.lua"
+        "2017.11.05\\EMIRU123\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "a6322eab2a050b94d04199202322b945": {
+      "fileSize": 969,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "e52af3d85ce34fa8872f3a924a763a6c": {
+      "fileSize": 969,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "cbf77eea0c1b0b5952948dbd7432ff16": {
+      "fileSize": 969,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\AtlasLoot.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "7d1a6c1f3062f1f935ac0815d17f4104": {
+      "fileSize": 1015,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "adb01de22de9538743517e2e017dd64e": {
+      "fileSize": 981,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "4b6aaeb3f22b0f08d3c8eedc886b9245": {
+      "fileSize": 26203,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "ee2e72dd4625b3463443a46ac955f506": {
+      "fileSize": 983,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "44d7801664fa7e2e58c96bca0d33c865": {
+      "fileSize": 525,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\AtlasLoot.lua"
+      ]
+    },
+    "0f643142236a225ee403ffadb6de9aec": {
+      "fileSize": 988,
+      "files": [
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\AtlasLoot.lua"
       ]
     }
   },
@@ -1166,7 +1242,8 @@
       "files": [
         "2016.08.09\\ARALD\\SavedVariables\\Bartender4.lua",
         "2016.08.20\\ARALD\\SavedVariables\\Bartender4.lua",
-        "2017.11.05\\ARALD\\SavedVariables\\Bartender4.lua"
+        "2017.11.05\\ARALD\\SavedVariables\\Bartender4.lua",
+        "2018.06.18\\ARALD\\SavedVariables\\Bartender4.lua"
       ]
     },
     "f835e2f2aea009ae90613d77e0c4c321": {
@@ -1209,19 +1286,28 @@
     "394f9022888dae7877f267bfa838887a": {
       "fileSize": 47382,
       "files": [
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\Bartender4.lua"
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\Bartender4.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Bartender4.lua"
       ]
     },
     "2db4a8bbfdcdcb47653c98e682d19c41": {
       "fileSize": 7534,
       "files": [
-        "2017.11.05\\EMIRU\\SavedVariables\\Bartender4.lua"
+        "2017.11.05\\EMIRU\\SavedVariables\\Bartender4.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Bartender4.lua"
       ]
     },
     "4c807480217c3b4d1e176ad6e33b7780": {
       "fileSize": 76485,
       "files": [
-        "2017.11.05\\EMIRU123\\SavedVariables\\Bartender4.lua"
+        "2017.11.05\\EMIRU123\\SavedVariables\\Bartender4.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\Bartender4.lua"
+      ]
+    },
+    "94dcd76fc0811f2182072047ad6681a8": {
+      "fileSize": 29664,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Bartender4.lua"
       ]
     }
   },
@@ -1308,14 +1394,17 @@
       "files": [
         "2016.08.09\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
         "2016.08.20\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
-        "2017.11.05\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua"
+        "2017.11.05\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "2018.06.18\\ARALD\\SavedVariables\\Blizzard_CombatLog.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Blizzard_CombatLog.lua"
       ]
     },
     "16b77e05096b6c92dc6dbac41fa176cf": {
       "fileSize": 25308,
       "files": [
         "2016.08.09\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua",
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\Blizzard_CombatLog.lua"
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\Blizzard_CombatLog.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Blizzard_CombatLog.lua"
       ]
     },
     "e6cfb9ddfd941f8502d531d16c3c7e84": {
@@ -1358,7 +1447,14 @@
     "fd6cb319400c1168ab32835df992136f": {
       "fileSize": 25308,
       "files": [
-        "2017.11.05\\EMIRU123\\SavedVariables\\Blizzard_CombatLog.lua"
+        "2017.11.05\\EMIRU123\\SavedVariables\\Blizzard_CombatLog.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\Blizzard_CombatLog.lua"
+      ]
+    },
+    "d3183d2c5db6fddc9dc1578c50032b08": {
+      "fileSize": 7757,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Blizzard_CombatLog.lua"
       ]
     }
   },
@@ -1505,7 +1601,8 @@
       "files": [
         "2012.12.18\\MINDBLOWING\\SavedVariables\\Gatherer.lua",
         "2012.12.18\\RHAPSODY\\SavedVariables\\Gatherer.lua",
-        "2017.11.05\\EMIRU\\SavedVariables\\Gatherer.lua"
+        "2017.11.05\\EMIRU\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Gatherer.lua"
       ]
     },
     "e6066ef9417f155eefd18df99e7dbd92": {
@@ -1627,8 +1724,6 @@
     "08ca81087c076ef89bed16d4a25ed284": {
       "fileSize": 74,
       "files": [
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Gatherer.lua",
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Gatherer.lua",
@@ -1637,9 +1732,28 @@
         "2017.11.05\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Gatherer.lua",
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Gatherer.lua",
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\Gatherer.lua",
+        "2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Gatherer.lua",
         "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Gatherer.lua",
-        "2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Gatherer.lua"
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Gatherer.lua"
       ]
     },
     "4c721b4cbeea062c62594cb58b1f5c1a": {
@@ -1651,13 +1765,21 @@
     "13658a6e960ae00d549ff873c0e6795a": {
       "fileSize": 293534,
       "files": [
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\Gatherer.lua"
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Gatherer.lua"
       ]
     },
     "ae1b1ba22501b5ad9a67474b0cf61aa1": {
       "fileSize": 4313,
       "files": [
-        "2017.11.05\\EMIRU123\\SavedVariables\\Gatherer.lua"
+        "2017.11.05\\EMIRU123\\SavedVariables\\Gatherer.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\Gatherer.lua"
+      ]
+    },
+    "bc982cbc6a6028a720c067dc96133e78": {
+      "fileSize": 1567014,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Gatherer.lua"
       ]
     }
   },
@@ -2080,16 +2202,18 @@
       "files": [
         "2016.08.09\\ARALD\\SavedVariables\\Recount.lua",
         "2016.08.20\\ARALD\\SavedVariables\\Recount.lua",
-        "2017.11.05\\ARALD\\SavedVariables\\Recount.lua"
+        "2017.11.05\\ARALD\\SavedVariables\\Recount.lua",
+        "2018.06.18\\ARALD\\SavedVariables\\Recount.lua"
       ]
     },
     "ea58470117c168448c8e677045d0742c": {
       "fileSize": 2468,
       "files": [
         "2016.08.09\\AUTIOCH\\SavedVariables\\Recount.lua",
-        "2016.08.20\\AUTIOCH2\\SavedVariables\\Recount.lua",
         "2016.08.20\\AUTIOCH\\SavedVariables\\Recount.lua",
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\Recount.lua"
+        "2016.08.20\\AUTIOCH2\\SavedVariables\\Recount.lua",
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Recount.lua"
       ]
     },
     "7bb5d29ff2f2ebffdceb2cad7db63d2c": {
@@ -2114,13 +2238,83 @@
     "3c8407043c34a6cfec98067e5a74bfb2": {
       "fileSize": 529,
       "files": [
-        "2017.11.05\\EMIRU\\SavedVariables\\Recount.lua"
+        "2017.11.05\\EMIRU\\SavedVariables\\Recount.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Recount.lua"
       ]
     },
     "602b9acd94c4749c742a618056481cba": {
       "fileSize": 1173,
       "files": [
-        "2017.11.05\\EMIRU123\\SavedVariables\\Recount.lua"
+        "2017.11.05\\EMIRU123\\SavedVariables\\Recount.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "10efd6a5bd96adf64a299f09f7fc15f1": {
+      "fileSize": 148,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Recount.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Recount.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Recount.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "185deb0bcb842c20332da83102ca106d": {
+      "fileSize": 2862,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "84b6522f4875848e4a64a11f007e519e": {
+      "fileSize": 5071,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "c9bcc7ffd39913bf22365459f016e2d8": {
+      "fileSize": 27607,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "bf7d36ea7a32441427969109659a1384": {
+      "fileSize": 26767,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "a706d5cf0a1cfc25d68446ea5d07577d": {
+      "fileSize": 1874,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "7c99b9a1e2a6498e32ddfef4b4f934e5": {
+      "fileSize": 17191,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "c010cbbe8611958ff99585699c6e35ba": {
+      "fileSize": 7934,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "39a784fba5f9c3ad53587028846a07ef": {
+      "fileSize": 113771,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Recount.lua"
+      ]
+    },
+    "507c6796b01bebc6ba7e42fe98feacf5": {
+      "fileSize": 3465,
+      "files": [
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Recount.lua"
       ]
     }
   },
@@ -2356,7 +2550,8 @@
       "files": [
         "2016.08.09\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
         "2016.08.20\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
-        "2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua"
+        "2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua"
       ]
     },
     "e535101b392a8ed77686e9ef8968a522": {
@@ -2364,7 +2559,8 @@
       "files": [
         "2016.08.09\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
         "2016.08.20\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
-        "2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua"
+        "2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua"
       ]
     },
     "e7a2155b67a12968f0cabb89800a9d79": {
@@ -2376,9 +2572,10 @@
     "e80ab6055a4260bc1d4c160b4ef96863": {
       "fileSize": 387,
       "files": [
-        "2016.08.20\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua",
         "2016.08.20\\AUTIOCH\\Lordaeron\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua"
+        "2016.08.20\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_RaidUI.lua"
       ]
     },
     "b360aa27bf6d6bed514df7fcf8b06334": {
@@ -2387,13 +2584,19 @@
         "2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\Blizzard_RaidUI.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Blizzard_RaidUI.lua",
-        "2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua"
+        "2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\ARALD\\Feronis\\Irrissa\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Blizzard_RaidUI.lua"
       ]
     },
     "f7fe8df43592b59bc70e0c63abc3750a": {
       "fileSize": 872,
       "files": [
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Blizzard_RaidUI.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Blizzard_RaidUI.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Blizzard_RaidUI.lua"
       ]
     }
   },
@@ -2524,16 +2727,20 @@
       "files": [
         "2016.01.16\\KAROLINA\\SavedVariables\\SnowfallKeyPress.lua",
         "2016.08.09\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
-        "2016.08.20\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
         "2016.08.20\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "2016.08.20\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
         "2016.11.29\\KAROLINA\\SavedVariables\\SnowfallKeyPress.lua",
         "2017.08.08\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
         "2017.10.08\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
         "2017.10.19\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
         "2017.11.05\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
+        "2017.11.05\\EMIRU\\SavedVariables\\SnowfallKeyPress.lua",
         "2017.11.05\\EMIRU123\\SavedVariables\\SnowfallKeyPress.lua",
-        "2017.11.05\\EMIRU\\SavedVariables\\SnowfallKeyPress.lua"
+        "2018.06.18\\AUTIOCH\\SavedVariables\\SnowfallKeyPress.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\SnowfallKeyPress.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\SnowfallKeyPress.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\SnowfallKeyPress.lua"
       ]
     }
   },
@@ -2543,15 +2750,19 @@
       "files": [
         "2016.08.09\\ARALD\\SavedVariables\\OmniCC.lua",
         "2016.08.20\\ARALD\\SavedVariables\\OmniCC.lua",
-        "2017.11.05\\ARALD\\SavedVariables\\OmniCC.lua"
+        "2017.11.05\\ARALD\\SavedVariables\\OmniCC.lua",
+        "2018.06.18\\ARALD\\SavedVariables\\OmniCC.lua"
       ]
     },
     "8cb34b933c8d851b3e758efc63d26940": {
       "fileSize": 56,
       "files": [
-        "2017.11.05\\AUTIOCH2\\SavedVariables\\OmniCC.lua",
         "2017.11.05\\AUTIOCH\\SavedVariables\\OmniCC.lua",
-        "2017.11.05\\EMIRU123\\SavedVariables\\OmniCC.lua"
+        "2017.11.05\\AUTIOCH2\\SavedVariables\\OmniCC.lua",
+        "2017.11.05\\EMIRU123\\SavedVariables\\OmniCC.lua",
+        "2018.06.18\\AUTIOCH\\SavedVariables\\OmniCC.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\OmniCC.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\OmniCC.lua"
       ]
     }
   },
@@ -2578,7 +2789,14 @@
     "e3d3a2d3224538a2509458c8d795c8e9": {
       "fileSize": 71997,
       "files": [
-        "2017.11.05\\EMIRU\\SavedVariables\\ShadowedUnitFrames.lua"
+        "2017.11.05\\EMIRU\\SavedVariables\\ShadowedUnitFrames.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\ShadowedUnitFrames.lua"
+      ]
+    },
+    "f7fcc439a4e8c4718f14dfa7a47184ad": {
+      "fileSize": 75444,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\ShadowedUnitFrames.lua"
       ]
     }
   },
@@ -2587,7 +2805,11 @@
       "fileSize": 2035,
       "files": [
         "2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua",
-        "2017.11.05\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "047d36d65922842e6361632e07cdc7c2": {
@@ -2595,47 +2817,61 @@
       "files": [
         "2017.11.05\\ARALD\\Feronis\\Arald\\SavedVariables\\DBM-Core.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\DBM-Core.lua",
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\ARALD\\Feronis\\Arald\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "6a318b6ac1b59f5436b36a502447cee5": {
       "fileSize": 2035,
       "files": [
-        "2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "0a79411bf769fcdf2b77806772202237": {
       "fileSize": 2136,
       "files": [
-        "2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "9397c5620065b828a1536948c410f8ef": {
       "fileSize": 2788,
       "files": [
-        "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "978738e501e22f7fd613b63b7e9b5133": {
       "fileSize": 2035,
       "files": [
-        "2017.11.05\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "04ce08ef68945ce68e4d8d3892eac851": {
       "fileSize": 2035,
       "files": [
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\DBM-Core.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\DBM-Core.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\DBM-Core.lua",
-        "2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\DBM-Core.lua",
+        "2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "319ccdc4e3080d9f9a34ed8293a67855": {
       "fileSize": 2035,
       "files": [
         "2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\DBM-Core.lua",
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "c3f5be41e4adb2cbf9fed58449d8827e": {
@@ -2647,13 +2883,27 @@
     "c976e62b7d4752518a8dddaf9cd9d5cc": {
       "fileSize": 2337,
       "files": [
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-Core.lua"
       ]
     },
     "b1fb47e5869d2c0065b1c8fac31f4426": {
       "fileSize": 2397,
       "files": [
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Core.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Core.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "1a39308682e488ae7190fc306a14bbbc": {
+      "fileSize": 2035,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\DBM-Core.lua"
+      ]
+    },
+    "12d952066d0a364e3d861b5359792d4c": {
+      "fileSize": 2196,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-Core.lua"
       ]
     }
   },
@@ -2661,20 +2911,27 @@
     "06948b2f19a259fd45552c1ab91ffd9c": {
       "fileSize": 1317,
       "files": [
-        "2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-PvP.lua"
+        "2017.11.05\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-PvP.lua"
       ]
     },
     "85aca4d489f86c59a4960455c33efedf": {
       "fileSize": 1317,
       "files": [
         "2017.11.05\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-PvP.lua",
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-PvP.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-PvP.lua"
       ]
     },
     "67aa8a896f577a25eca7e8f7736e933c": {
       "fileSize": 1317,
       "files": [
-        "2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-PvP.lua"
+        "2017.11.05\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\ARALD\\Feronis\\Irrissa\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\DBM-PvP.lua"
       ]
     },
     "0bcd3190dcdc50caecb89812799a8e06": {
@@ -2692,7 +2949,8 @@
     "601d8df4380e85d55de71520380c4e9f": {
       "fileSize": 1317,
       "files": [
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-PvP.lua"
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-PvP.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-PvP.lua"
       ]
     }
   },
@@ -2706,7 +2964,20 @@
     "7d33865553a33abe67387629d656fd43": {
       "fileSize": 6016,
       "files": [
-        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Coliseum.lua"
+        "2017.11.05\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Coliseum.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\DBM-Coliseum.lua"
+      ]
+    },
+    "f1d42374e1aace56556bf29427259676": {
+      "fileSize": 6017,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Coliseum.lua"
+      ]
+    },
+    "0e76a2ce364397aef3e9bc92924f6526": {
+      "fileSize": 6018,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-Coliseum.lua"
       ]
     }
   },
@@ -2714,7 +2985,8 @@
     "cc48e0f394f1bdcf5a51690db7624588": {
       "fileSize": 16998,
       "files": [
-        "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Icecrown.lua"
+        "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Icecrown.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Icecrown.lua"
       ]
     }
   },
@@ -2724,6 +2996,12 @@
       "files": [
         "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Ulduar.lua"
       ]
+    },
+    "d384d61c730b37760206519686c717ca": {
+      "fileSize": 12113,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-Ulduar.lua"
+      ]
     }
   },
   "DBM-VoA": {
@@ -2732,15 +3010,30 @@
       "files": [
         "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-VoA.lua"
       ]
+    },
+    "c32e5a5ac413a65e8548913fcb02b9f7": {
+      "fileSize": 1581,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-VoA.lua"
+      ]
+    },
+    "77e79d5c515b21ed65039f9202068cd0": {
+      "fileSize": 1581,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-VoA.lua"
+      ]
     }
   },
   "DBM-WorldEvents": {
     "5a26315fa2e323e45c4b73008d7bb2ef": {
       "fileSize": 65,
       "files": [
-        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-WorldEvents.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-WorldEvents.lua",
-        "2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-WorldEvents.lua"
+        "2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-WorldEvents.lua",
+        "2017.11.05\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-WorldEvents.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\DBM-WorldEvents.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\DBM-WorldEvents.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\DBM-WorldEvents.lua"
       ]
     }
   },
@@ -2756,19 +3049,34 @@
         "2017.11.05\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Scrap.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Scrap.lua",
         "2017.11.05\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Scrap.lua",
-        "2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Scrap.lua"
+        "2017.11.05\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Scrap.lua"
       ]
     },
     "f76083c981d904115baf78c9cbfabdf0": {
       "fileSize": 49,
       "files": [
-        "2017.11.05\\AUTIOCH\\SavedVariables\\Scrap.lua"
+        "2017.11.05\\AUTIOCH\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Scrap.lua"
       ]
     },
     "138d19cbc933a54b0adf103b3ed35def": {
       "fileSize": 47,
       "files": [
-        "2017.11.05\\EMIRU\\SavedVariables\\Scrap.lua"
+        "2017.11.05\\EMIRU\\SavedVariables\\Scrap.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Scrap.lua"
       ]
     }
   },
@@ -2777,6 +3085,66 @@
       "fileSize": 77088,
       "files": [
         "2017.11.05\\AUTIOCH\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "a26163cbf0469314b926101a625f1533": {
+      "fileSize": 178,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\FishingBuddy.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\FishingBuddy.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "ac38ef21f9e865e05cc011500b071371": {
+      "fileSize": 178,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\FishingBuddy.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\FishingBuddy.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\FishingBuddy.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\FishingBuddy.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "4132d4a45aee26c286037e33b29dffd8": {
+      "fileSize": 649,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "ab22b965041335ac1b6dc4637ea4c347": {
+      "fileSize": 259,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "138c1ac3cb604dd0856e27b30f38902c": {
+      "fileSize": 228,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "b87bc650a7c00d9fd13b5c9008d0a78c": {
+      "fileSize": 273,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "7606c4306fb4a4ec9fd0042a6af4b2c1": {
+      "fileSize": 379,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "f311222ae24d4971e7f87c69df0f7c53": {
+      "fileSize": 78344,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\FishingBuddy.lua"
+      ]
+    },
+    "e414528ae82547cbda1f531e51c76d50": {
+      "fileSize": 522,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\FishingBuddy.lua"
       ]
     }
   },
@@ -2790,7 +3158,760 @@
     "fa60b088825ce393bea1748383bdf331": {
       "fileSize": 3508,
       "files": [
-        "2017.11.05\\EMIRU\\SavedVariables\\Genie.lua"
+        "2017.11.05\\EMIRU\\SavedVariables\\Genie.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Genie.lua"
+      ]
+    },
+    "008c4251e9b39037176735c02674fd6a": {
+      "fileSize": 12021,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Genie.lua"
+      ]
+    }
+  },
+  "SavedVariables": {
+    "81051bcc2cf1bedf378224b0a93e2877": {
+      "fileSize": 2,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables.lua",
+        "2018.06.18\\ARALD\\Feronis\\Arald\\SavedVariables.lua",
+        "2018.06.18\\ARALD\\Feronis\\Heflena\\SavedVariables.lua",
+        "2018.06.18\\ARALD\\Feronis\\Irrissa\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Emiru\\SavedVariables.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables.lua"
+      ]
+    },
+    "1625e2432f36f74106125d0055ce37d7": {
+      "fileSize": 92,
+      "files": [
+        "2018.06.18\\ARALD\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH\\SavedVariables.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables.lua",
+        "2018.06.18\\EMIRU\\SavedVariables.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables.lua"
+      ]
+    }
+  },
+  "Blizzard_BattlefieldMinimap": {
+    "fb091fc98083fe4e7dbfdfef7b6f43b8": {
+      "fileSize": 203,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "60fe893aa1cea620bf09eb38805cc9f1": {
+      "fileSize": 118,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Arald\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "fa0e9dc5b761ad09e39067dfd40a644b": {
+      "fileSize": 202,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "38672e6f3eb36f1e2a1b6dfbcf54eaf5": {
+      "fileSize": 203,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Irrissa\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "aafab0d938da7fe366f7390851b3e429": {
+      "fileSize": 102,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Blizzard_BattlefieldMinimap.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Emiru\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "b707f2ce74904b626e5971de65f6a6e4": {
+      "fileSize": 186,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "b308a01ccb5032e791c7ec4cf78cdea5": {
+      "fileSize": 186,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "427349004794672ee781852a632392f0": {
+      "fileSize": 186,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "3168c3040965dce54ffcb59e662eccd9": {
+      "fileSize": 186,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "ae6c53a5dfb7cefadd953405f9c9bd55": {
+      "fileSize": 185,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "8e64ef50c5bfdae6a99fc6edb09b5c9d": {
+      "fileSize": 189,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    },
+    "95434804de21546e901c2649384d0ed1": {
+      "fileSize": 202,
+      "files": [
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Blizzard_BattlefieldMinimap.lua"
+      ]
+    }
+  },
+  "Blizzard_TimeManager": {
+    "7ac96f88276fe3633b9bbde206ae1b06": {
+      "fileSize": 35,
+      "files": [
+        "2018.06.18\\ARALD\\Feronis\\Amancik\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\ARALD\\Feronis\\Arald\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\ARALD\\Feronis\\Heflena\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\ARALD\\Feronis\\Irrissa\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Emiru\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\Blizzard_TimeManager.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Blizzard_TimeManager.lua"
+      ]
+    }
+  },
+  "AckisRecipeList": {
+    "74e1a352d604fd4f2ec7eec3a6eb3fdd": {
+      "fileSize": 151,
+      "files": [
+        "2018.06.18\\ARALD\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "08d743a1fad373ac0c7ad5ebadd1a1a8": {
+      "fileSize": 7462,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "1a391ede283265b0a46de796e8e1029c": {
+      "fileSize": 2523,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "941b6f3f9649c7fd378d7271f35b0524": {
+      "fileSize": 157,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    },
+    "2beda46f8f2d9f60c18805539d179be2": {
+      "fileSize": 1022,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\AckisRecipeList.lua"
+      ]
+    }
+  },
+  "BonusScanner": {
+    "ac8ce82a5c1e5e8bd481ad42bc0e6bfd": {
+      "fileSize": 2043,
+      "files": [
+        "2018.06.18\\ARALD\\SavedVariables\\BonusScanner.lua"
+      ]
+    },
+    "8e413f2e42926f9bf0207ac479eba6db": {
+      "fileSize": 1856,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\BonusScanner.lua"
+      ]
+    },
+    "0bbf434b70497874ab29c37395ff53ff": {
+      "fileSize": 1497,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\BonusScanner.lua"
+      ]
+    },
+    "1107c548d4a2e657db2e21ff46937570": {
+      "fileSize": 852,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\BonusScanner.lua"
+      ]
+    },
+    "60f1727e2d85ce37f1c1c2d3745a7e4b": {
+      "fileSize": 2065,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\BonusScanner.lua"
+      ]
+    }
+  },
+  "GearScore": {
+    "9151b6141350c987783a20d58dbcdeb6": {
+      "fileSize": 1754,
+      "files": [
+        "2018.06.18\\ARALD\\SavedVariables\\GearScore.lua"
+      ]
+    },
+    "5385f089da301dcbec9d721a0a828bd2": {
+      "fileSize": 72751,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\GearScore.lua"
+      ]
+    },
+    "5b5026450f7f16908b60fddfb6df0816": {
+      "fileSize": 82879,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\GearScore.lua"
+      ]
+    },
+    "cbae232e75f02527a1606e67b718eb69": {
+      "fileSize": 888,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\GearScore.lua"
+      ]
+    },
+    "c7e38c335b3213ea4c83568e1ef3bad6": {
+      "fileSize": 88280,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\GearScore.lua"
+      ]
+    }
+  },
+  "_NPCScan": {
+    "fd6d40f08b1a15523250349b8553d635": {
+      "fileSize": 280,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Emiru\\SavedVariables\\_NPCScan.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\_NPCScan.lua"
+      ]
+    },
+    "9460174f6474f47c21969030fbccc0dd": {
+      "fileSize": 116,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\_NPCScan.lua"
+      ]
+    },
+    "deb3c544b3994964d6ef53c055ab1f65": {
+      "fileSize": 81,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\_NPCScan.lua"
+      ]
+    }
+  },
+  "Auctionator": {
+    "cd5c8bfbd18d02af1a12d41fffb3f87a": {
+      "fileSize": 362,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Auctionator.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "1d3a407b8bde5fbf5bc5675534376e51": {
+      "fileSize": 41001,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Auctionator.lua"
+      ]
+    },
+    "3e159ef202b9b57ec7a4290bb81b975e": {
+      "fileSize": 575,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\Auctionator.lua"
+      ]
+    }
+  },
+  "Enchantrix": {
+    "3596b30167336d922c139ce3fdb10e33": {
+      "fileSize": 35,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amanteczka\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantek\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Amantka\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Arald\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Derasucks\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Dustbringer\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH\\Feronis\\Heflena\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Enchantrix.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "719c7b142607a94e18ed4ed701d26794": {
+      "fileSize": 316,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "77b94c571601291accf24e376aef995b": {
+      "fileSize": 48455,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "0dbc6c77cc343b7af1ca9939c1234375": {
+      "fileSize": 31894,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "5afaf0139c8f940278cf3ba40beb99ce": {
+      "fileSize": 223,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "acc3f2764733c407e410aea56740eabd": {
+      "fileSize": 296,
+      "files": [
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Enchantrix.lua"
+      ]
+    },
+    "44aeaf138ea5bb2dad75392a95e00b69": {
+      "fileSize": 36076,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Enchantrix.lua"
+      ]
+    }
+  },
+  "SushiSort": {
+    "a95fb3a6259bbdedf541c5c4f3f45221": {
+      "fileSize": 1474,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Angrathar\\Dustbringer\\SavedVariables\\SushiSort.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Heflena\\SavedVariables\\SushiSort.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Placeholder\\SavedVariables\\SushiSort.lua",
+        "2018.06.18\\AUTIOCH\\Angrathar\\Urime\\SavedVariables\\SushiSort.lua",
+        "2018.06.18\\EMIRU\\Feronis\\Shardless\\SavedVariables\\SushiSort.lua"
+      ]
+    },
+    "7151c1418b8f0a6e7c64e3850a1e7488": {
+      "fileSize": 55653,
+      "files": [
+        "2018.06.18\\AUTIOCH\\Feronis\\Amancik\\SavedVariables\\SushiSort.lua"
+      ]
+    }
+  },
+  "_NPCScan.Overlay": {
+    "778e01fcc361c7fad4bba12dcf8f68d8": {
+      "fileSize": 434,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\_NPCScan.Overlay.lua"
+      ]
+    },
+    "bc5640e23c13c629d0a877a4a7c5d15f": {
+      "fileSize": 435,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\_NPCScan.Overlay.lua"
+      ]
+    }
+  },
+  "!Swatter": {
+    "cd9d4b2e02431ceda97a5b83ee147f05": {
+      "fileSize": 143102,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\!Swatter.lua"
+      ]
+    },
+    "74273b1c26842070f17d79c95266672b": {
+      "fileSize": 89,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\!Swatter.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\!Swatter.lua"
+      ]
+    },
+    "ad1aef8a9d4f8301ad8b0e611ac1827d": {
+      "fileSize": 9499,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\!Swatter.lua"
+      ]
+    }
+  },
+  "AtlasLootFu": {
+    "4019df839ed7b4680940a51e22ca7ac3": {
+      "fileSize": 183,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\AtlasLootFu.lua"
+      ]
+    },
+    "7981de38bd63eb1db8828541b01012de": {
+      "fileSize": 183,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\AtlasLootFu.lua"
+      ]
+    },
+    "b14b849838c51fc1d4c1bdbfb2216606": {
+      "fileSize": 108,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\AtlasLootFu.lua"
+      ]
+    },
+    "c6f2bd3a82dfefd8769b3505f1ab57f7": {
+      "fileSize": 138,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\AtlasLootFu.lua"
+      ]
+    }
+  },
+  "BeanCounter": {
+    "37c8628597cfe30fae38518b63c523b6": {
+      "fileSize": 1386,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\BeanCounter.lua"
+      ]
+    },
+    "babf3d1b0e21d109c436d15ce58f4f7f": {
+      "fileSize": 807,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\BeanCounter.lua"
+      ]
+    },
+    "b29024efa908b1c37542477568aaeb4c": {
+      "fileSize": 6798,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\BeanCounter.lua"
+      ]
+    }
+  },
+  "Enchantrix-Barker": {
+    "8f3c074d01da32d4d5b9873b7a660ae3": {
+      "fileSize": 64,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Enchantrix-Barker.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\Enchantrix-Barker.lua"
+      ]
+    },
+    "09dff4df915f0989caf704fe418403f6": {
+      "fileSize": 32,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Enchantrix-Barker.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\Enchantrix-Barker.lua"
+      ]
+    }
+  },
+  "EveryQuest": {
+    "5772b6be7d486906042d7f30c5c7dde7": {
+      "fileSize": 2391,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\EveryQuest.lua"
+      ]
+    },
+    "a5ca745da76e21bb79f81f4484d76c5f": {
+      "fileSize": 112328,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\EveryQuest.lua"
+      ]
+    },
+    "7626e24f195ea01d7d0101aaed91ab50": {
+      "fileSize": 274,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\EveryQuest.lua"
+      ]
+    },
+    "c0dcc8446ff7abe2a04af83e71eb0111": {
+      "fileSize": 1017,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\EveryQuest.lua"
+      ]
+    },
+    "e1e301dd1c786342be5c5c25b578292b": {
+      "fileSize": 211,
+      "files": [
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\EveryQuest.lua"
+      ]
+    },
+    "c03372fab181822b0f7de98897cbf738": {
+      "fileSize": 1520,
+      "files": [
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\EveryQuest.lua"
+      ]
+    },
+    "1a0a85fdceaef3b155f33ff8cc006ec3": {
+      "fileSize": 346,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\EveryQuest.lua"
+      ]
+    }
+  },
+  "HandyNotes": {
+    "927f66c22da85603e178b0a77c2ca47e": {
+      "fileSize": 5115,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\HandyNotes.lua"
+      ]
+    },
+    "f35b27734b39394b94582afd4f62298b": {
+      "fileSize": 3125,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\HandyNotes.lua"
+      ]
+    },
+    "213a45e959f46e3153c173e8674dda1a": {
+      "fileSize": 555,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\HandyNotes.lua"
+      ]
+    }
+  },
+  "Informant": {
+    "a8f5e1222dbb99b7f1abe2e9c9522715": {
+      "fileSize": 488,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Informant.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Informant.lua"
+      ]
+    },
+    "dbe78db357a7f298538c66b7b89419f5": {
+      "fileSize": 193,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\Informant.lua"
+      ]
+    },
+    "460ed78dda11cc99347140c54438bb66": {
+      "fileSize": 194,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Informant.lua"
+      ]
+    }
+  },
+  "InterruptBar": {
+    "37a13eb8d19fb975e2fde7323973c901": {
+      "fileSize": 84,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\InterruptBar.lua"
+      ]
+    }
+  },
+  "oGlow": {
+    "cb3f887e6a2b94f211c985623cd31410": {
+      "fileSize": 581,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\oGlow.lua",
+        "2018.06.18\\EMIRU\\SavedVariables\\oGlow.lua"
+      ]
+    }
+  },
+  "SlideBar": {
+    "5e4cf8c8a389db13001bbca138e7f7d4": {
+      "fileSize": 85,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\SlideBar.lua"
+      ]
+    },
+    "f66fd5094c7a60d0e710b8607a5bd52e": {
+      "fileSize": 85,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\SlideBar.lua"
+      ]
+    },
+    "5f21242f272e3b6c557e664bd9706553": {
+      "fileSize": 25,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\SlideBar.lua",
+        "2018.06.18\\EMIRU123\\SavedVariables\\SlideBar.lua"
+      ]
+    }
+  },
+  "Stubby": {
+    "4add10a9970cd51d130ee534916f274e": {
+      "fileSize": 4474,
+      "files": [
+        "2018.06.18\\AUTIOCH\\SavedVariables\\Stubby.lua",
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Stubby.lua"
+      ]
+    },
+    "23c77c2752c523a133d72e05f358b9d9": {
+      "fileSize": 4409,
+      "files": [
+        "2018.06.18\\EMIRU\\SavedVariables\\Stubby.lua"
+      ]
+    },
+    "ef4d513a3ba9588467a094f26ef0c815": {
+      "fileSize": 4479,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Stubby.lua"
+      ]
+    }
+  },
+  "Auc-Advanced": {
+    "2d1af160499337a21b8ef9b91576d7ba": {
+      "fileSize": 48,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Ramener\\SavedVariables\\Auc-Advanced.lua",
+        "2018.06.18\\AUTIOCH2\\Lordaeron\\Rameneria\\SavedVariables\\Auc-Advanced.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyabank\\SavedVariables\\Auc-Advanced.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyadark\\SavedVariables\\Auc-Advanced.lua",
+        "2018.06.18\\EMIRU123\\Lordaeron\\Vanyaelnesar\\SavedVariables\\Auc-Advanced.lua"
+      ]
+    },
+    "486939205510a5ce1a36d0cdf7d51b8a": {
+      "fileSize": 2201,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Advanced.lua"
+      ]
+    },
+    "3c887dbd6f7b6ed2e1d4aa20364a88d9": {
+      "fileSize": 1223,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Advanced.lua"
+      ]
+    }
+  },
+  "Auc-Filter-Basic": {
+    "fe92ac3fc4769d8937449445eb3dcdcb": {
+      "fileSize": 196,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Filter-Basic.lua"
+      ]
+    },
+    "910f56ce26df2c52fdedffd8b8aecda6": {
+      "fileSize": 123,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Filter-Basic.lua"
+      ]
+    }
+  },
+  "Auc-ScanData": {
+    "26c6694a908a558d21844d54db6d71c7": {
+      "fileSize": 1568792,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-ScanData.lua"
+      ]
+    },
+    "50bbe0ab0c43c25a74eea45d96edb045": {
+      "fileSize": 375077,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-ScanData.lua"
+      ]
+    }
+  },
+  "Auc-Stat-Histogram": {
+    "4ae180bd2fb6a017ac48888009694b26": {
+      "fileSize": 86675,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Stat-Histogram.lua"
+      ]
+    },
+    "b5f4f3f9ef031abc382671a6cc2822b0": {
+      "fileSize": 284,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Stat-Histogram.lua"
+      ]
+    }
+  },
+  "Auc-Stat-iLevel": {
+    "2c0ba41b4ae6803e4b1cb9db913dd551": {
+      "fileSize": 22787,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Stat-iLevel.lua"
+      ]
+    },
+    "de52ec3298021469ad83438aaf745634": {
+      "fileSize": 134,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Stat-iLevel.lua"
+      ]
+    }
+  },
+  "Auc-Stat-Purchased": {
+    "b80d0dd9a16f21800f0746c2dc9724ce": {
+      "fileSize": 4307,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Stat-Purchased.lua"
+      ]
+    },
+    "f84746e304cb36a116b95170ee26905b": {
+      "fileSize": 201,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Stat-Purchased.lua"
+      ]
+    }
+  },
+  "Auc-Stat-Simple": {
+    "d4061155991b8808756fa96f73c3c477": {
+      "fileSize": 69762,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Stat-Simple.lua"
+      ]
+    },
+    "218f859c37f6c707c41fd762c379656b": {
+      "fileSize": 310,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Stat-Simple.lua"
+      ]
+    }
+  },
+  "Auc-Stat-StdDev": {
+    "288da02cce1ab13d245368204c12694a": {
+      "fileSize": 80764,
+      "files": [
+        "2018.06.18\\AUTIOCH2\\SavedVariables\\Auc-Stat-StdDev.lua"
+      ]
+    },
+    "c1e3fe54fe810d785d12b94318c9bdad": {
+      "fileSize": 144,
+      "files": [
+        "2018.06.18\\EMIRU123\\SavedVariables\\Auc-Stat-StdDev.lua"
       ]
     }
   }

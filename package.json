@@ -2,11 +2,10 @@
   "name": "wow-macro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "private": true,
   "scripts": {
-    "dev": "webpack --watch --hide-modules --config src/macro/page/webpack.config.js",
-    "build": "webpack -p --hide-modules --config src/macro/page/webpack.config.js"
+    "organize": "node src/index"
   },
   "keywords": [],
   "repository": {
@@ -21,6 +20,7 @@
   "homepage": "https://github.com/Autioch/wow-macro#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
+    "babel-eslint": "10.0.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.0",
@@ -31,11 +31,13 @@
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.4",
+    "glob": "^7.1.6",
     "html-webpack-plugin": "^2.30.1",
     "leven": "^2.1.0",
     "lodash.compact": "^3.0.1",
     "lodash.uniq": "^4.5.0",
     "node-sass": "^4.5.3",
+    "qb-log": "^1.0.1",
     "sass-loader": "^6.0.6",
     "serve-local": "^1.0.0",
     "source-map": "^0.6.1",

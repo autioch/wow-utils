@@ -1,9 +1,8 @@
-const addon = require('./addon');
-const config = require('./config');
-const macro = require('./macro');
+const organizeAddonConfigs = require('./organizeAddonConfigs');
+const organizeClientConfigs = require('./organizeClientConfigs');
+const { SOURCE } = require('./consts');
 
-module.exports = function wowUtils(backupDir) {
-  return macro(backupDir)
-    .then(() => config(backupDir))
-    .then(() => addon(backupDir));
-};
+(async () => {
+  // await organizeAddonConfigs(SOURCE);
+  await organizeClientConfigs(SOURCE);
+})();

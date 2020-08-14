@@ -1,11 +1,13 @@
 [
   {
     "key": "locale",
-    "value": "enGB"
+    "values": [
+      "enGB"
+    ]
   },
   {
     "key": "realmList",
-    "value": [
+    "values": [
       "176.9.132.194",
       "logon.sunwell.pl",
       "logon.warmane.com",
@@ -14,43 +16,61 @@
   },
   {
     "key": "hwDetect",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "gxRefresh",
-    "value": "60"
+    "values": [
+      "60"
+    ]
   },
   {
     "key": "gxMultisampleQuality",
-    "value": "0.000000"
+    "values": [
+      "0.000000"
+    ]
   },
   {
     "key": "gxFixLag",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "videoOptionsVersion",
-    "value": "3"
+    "values": [
+      "3"
+    ]
   },
   {
     "key": "movie",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "Gamma",
-    "value": "1.000000"
+    "values": [
+      "1.000000"
+    ]
   },
   {
     "key": "showToolsUI",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_OutputDriverName",
-    "value": "System"
+    "values": [
+      "System"
+    ]
   },
   {
     "key": "Sound_MusicVolume",
-    "value": [
+    "values": [
       "0.20000000298023",
       "0.30000001192093",
       "0.40000000596046",
@@ -59,7 +79,7 @@
   },
   {
     "key": "Sound_AmbienceVolume",
-    "value": [
+    "values": [
       "0",
       "0.20000000298023",
       "0.30000001192093",
@@ -70,7 +90,7 @@
   },
   {
     "key": "farclip",
-    "value": [
+    "values": [
       "1167",
       "1277",
       "777.000000"
@@ -78,14 +98,14 @@
   },
   {
     "key": "particleDensity",
-    "value": [
+    "values": [
       "0.10000000149012",
       "1"
     ]
   },
   {
     "key": "gxResolution",
-    "value": [
+    "values": [
       "1280x768",
       "1366x768",
       "1920x1080"
@@ -93,48 +113,58 @@
   },
   {
     "key": "gxVSync",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "textureFilteringMode",
-    "value": [
+    "values": [
       "0",
       "5"
     ]
   },
   {
     "key": "mouseSpeed",
-    "value": [
+    "values": [
       "1",
       "1.2000000476837"
     ]
   },
   {
     "key": "readTOS",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "readEULA",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "readTerminationWithoutNotice",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "accounttype",
-    "value": "LK"
+    "values": [
+      "LK"
+    ]
   },
   {
     "key": "environmentDetail",
-    "value": [
+    "values": [
       "1",
       "1.5"
     ]
   },
   {
     "key": "weatherDensity",
-    "value": [
+    "values": [
       "0",
       "1",
       "3"
@@ -142,15 +172,19 @@
   },
   {
     "key": "ffxGlow",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "ffxDeath",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "gameTip",
-    "value": [
+    "values": [
       "126",
       "129",
       "134",
@@ -165,42 +199,57 @@
   },
   {
     "key": "uiScale",
-    "value": "0.84999996423721"
+    "values": [
+      "0.84999996423721"
+    ]
   },
   {
     "key": "timingTestError",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "showGameTips",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "checkAddonVersion",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "realmName",
-    "value": [
+    "values": [
+      "Angrathar",
       "Feronis",
       "Lordaeron"
     ]
   },
   {
     "key": "characterAmbient",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "detailDoodadAlpha",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "DistCull",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "groundEffectDist",
-    "value": [
+    "values": [
       "100",
       "110",
       "140",
@@ -209,69 +258,92 @@
   },
   {
     "key": "Sound_SFXVolume",
-    "value": [
+    "values": [
       "0.10000000149012",
       "0.20000000298023",
       "0.30000001192093",
       "0.5",
       "0.60000002384186",
+      "0.80000001192093",
       "1"
     ]
   },
   {
     "key": "Sound_ZoneMusicNoDelay",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_EnableDSPEffects",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "Sound_EnableSoundWhenGameIsInBG",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_EnableAllSound",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "componentTextureLevel",
-    "value": "9"
+    "values": [
+      "9"
+    ]
   },
   {
     "key": "shadowLevel",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "mapShadows",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "Sound_EnableSoftwareHRTF",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_OutputQuality",
-    "value": [
+    "values": [
       "0",
       "2"
     ]
   },
   {
     "key": "windowResizeLock",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_VoiceChatInputDriverName",
-    "value": "System"
+    "values": [
+      "System"
+    ]
   },
   {
     "key": "Sound_VoiceChatOutputDriverName",
-    "value": "System"
+    "values": [
+      "System"
+    ]
   },
   {
     "key": "Sound_MasterVolume",
-    "value": [
+    "values": [
       "0.20000000298023",
       "0.30000001192093",
       "0.5",
@@ -280,27 +352,37 @@
   },
   {
     "key": "projectedTextures",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "gxTripleBuffer",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "baseMip",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_EnableMusic",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "Sound_EnableAmbience",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "accountName",
-    "value": [
+    "values": [
       "autioch",
       "karolina",
       "kasumi"
@@ -308,69 +390,108 @@
   },
   {
     "key": "groundEffectDensity",
-    "value": [
+    "values": [
       "24",
       "40"
     ]
   },
   {
     "key": "specular",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "lastCharacterIndex",
-    "value": [
+    "values": [
       "1",
+      "2",
       "5",
       "6"
     ]
   },
   {
     "key": "useUiScale",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "readScanning",
-    "value": "-1"
+    "values": [
+      "-1"
+    ]
   },
   {
     "key": "readContest",
-    "value": "-1"
+    "values": [
+      "-1"
+    ]
   },
   {
     "key": "installLocale",
-    "value": "enUS"
+    "values": [
+      "enUS"
+    ]
   },
   {
     "key": "maxAnimThreads",
-    "value": "3"
+    "values": [
+      "3"
+    ]
   },
   {
     "key": "lastReadTOS",
-    "value": "50408"
+    "values": [
+      "50408"
+    ]
   },
   {
     "key": "lastReadEULA",
-    "value": "50408"
+    "values": [
+      "50408"
+    ]
   },
   {
     "key": "lastReadTerminationWithoutNotice",
-    "value": "50408"
+    "values": [
+      "50408"
+    ]
   },
   {
     "key": "movieSubtitle",
-    "value": "1"
+    "values": [
+      "1"
+    ]
   },
   {
     "key": "Sound_EnableSFX",
-    "value": "0"
+    "values": [
+      "0"
+    ]
   },
   {
     "key": "maxFPS",
-    "value": "60"
+    "values": [
+      "60"
+    ]
   },
   {
     "key": "gxMultisample",
-    "value": "8"
+    "values": [
+      "8"
+    ]
+  },
+  {
+    "key": "extShadowQuality",
+    "values": [
+      "3"
+    ]
+  },
+  {
+    "key": "Sound_NumChannels",
+    "values": [
+      "64"
+    ]
   }
 ]
