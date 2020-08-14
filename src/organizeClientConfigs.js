@@ -1,5 +1,5 @@
 const { uniq } = require('lodash');
-const { findFiles, readFile, saveFile, saveJson, setDict } = require('./utils');
+const { findFiles, readFile, setDict } = require('./utils');
 
 const settingToText = ({ key, values }) => {
   if (values.length > 1) {
@@ -38,8 +38,8 @@ module.exports = async function organizeClientConfigs(dir) {
   const contents = await Promise.all(fileNames.map(readFile));
   const deduped = dedupe(contents);
 
-  await saveFile(deduped.flatMap(settingToText).join('\n'), 'Config.wtf');
-  await saveJson(deduped, 'config');
-
-  return deduped;
+  return {
+    configRaw: deduped,
+    configText: deduped.flatMap(settingToText).join('\n')
+  };
 };

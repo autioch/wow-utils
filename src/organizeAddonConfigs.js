@@ -1,6 +1,6 @@
 const crypto = require('crypto'); // eslint-disable-line no-shadow
 const { relative } = require('path');
-const { findFiles, readFile, saveJson, setDict } = require('./utils');
+const { findFiles, readFile, setDict } = require('./utils');
 
 const hashFile = (dir) => ({ fileContents, fileName }) => ({
   hash: crypto.createHash('md5').update(fileContents).digest('hex'),
@@ -24,10 +24,6 @@ const groupFile = (dict, { fileName, hash, fileSize, filePath }) => {
 module.exports = async function organizeAddonConfigs(dir) {
   const fileNames = await findFiles(dir, '*.lua');
   const contents = await Promise.all(fileNames.map(readFile));
-  const hashed = contents.map(hashFile(dir));
-  const grouped = hashed.reduce(groupFile, {});
 
-  await saveJson(grouped, 'addons', true);
-
-  return grouped;
+  return contents.map(hashFile(dir)).reduce(groupFile, {});
 };
