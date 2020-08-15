@@ -1,5 +1,6 @@
 const organizeAddonConfigs = require('./organizeAddonConfigs');
 const organizeClientConfigs = require('./organizeClientConfigs');
+const getTags = require('./getTags');
 const getMacros = require('./getMacros');
 const getMounts = require('./getMounts');
 const getSpells = require('./getSpells');
@@ -29,7 +30,11 @@ const saveJson = (fileName, fileContents) => saveFile(`${fileName}.json`, JSON.s
   qbLog.info('macros');
   const macros = await getMacros(SOURCE);
 
+  qbLog.info('tags');
+  const tags = await getTags(spells, mounts);
+
   qbLog.info('saving files');
+  await saveJson('tags', tags);
   await saveJson('macros', macros);
   await saveJson('mounts', mounts);
   await saveJson('spells', spells);

@@ -21,6 +21,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "glob": "^7.1.6",
+    "lodash": "^4.17.20",
     "qb-log": "^1.0.1",
     "request": "^2.88.2"
   },
