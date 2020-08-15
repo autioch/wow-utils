@@ -1,5 +1,7 @@
 const organizeAddonConfigs = require('./organizeAddonConfigs');
 const organizeClientConfigs = require('./organizeClientConfigs');
+const getMounts = require('./getMounts');
+const getSpells = require('./getSpells');
 const { join } = require('path');
 const fs = require('fs/promises');
 
@@ -12,7 +14,11 @@ const saveJson = (fileName, fileContents) => saveFile(`${fileName}.json`, JSON.s
 (async () => {
   const addonConfigs = await organizeAddonConfigs(SOURCE);
   const { configRaw, configText } = await organizeClientConfigs(SOURCE);
+  const mounts = getMounts();
+  const spells = getSpells();
 
+  await saveJson('mounts', mounts);
+  await saveJson('spells', spells);
   await saveJson('addons', addonConfigs);
   await saveJson('config', configRaw);
   await saveFile('Config.wtf', configText);

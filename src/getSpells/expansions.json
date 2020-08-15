@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Vanilla",
+    "id": "vanilla"
+  },
+  {
+    "label": "The Burning Crusade",
+    "id": "tbc"
+  },
+  {
+    "label": "Wrath of the Lich King",
+    "id": "wotlk"
+  },
+  {
+    "label": "Cataclysm",
+    "id": "cata"
+  }
+]

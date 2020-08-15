@@ -1,6 +1,8 @@
 # WoW utils
 
-Scripts for organizing settings from multiple World of Warcraft configurations into a single one.
+Scripts for:
+- organizing settings from multiple World of Warcraft configurations into a single one
+- obtaining lists of spells
 
 ## Currently analyzed parts
 - client configuration `Config.wtf`,
