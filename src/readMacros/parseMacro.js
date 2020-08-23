@@ -41,11 +41,10 @@ function parseHeader(headerLine) {
  */
 module.exports = function parseMacro(macro) {
   const [header, ...lines] = macro;
-  const [, id, rawLabel, icon] = parseHeader(header);
+  const [, , rawLabel, icon] = parseHeader(header);
   const [prefix, label] = parseLabel(rawLabel);
 
   return {
-    id,
     prefix,
     label,
     icon,

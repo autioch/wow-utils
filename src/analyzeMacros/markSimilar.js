@@ -1,6 +1,6 @@
-/* eslint-disable no-plusplus */
-const { flattenDeep } = require('lodash');
+/* https://en.wikipedia.org/wiki/DBSCAN */
 
+/* eslint-disable no-plusplus */
 function calculateReplaceCost(elementA, elementB) {
   if (elementA === elementB) { // null
     return 0;
@@ -13,8 +13,8 @@ function calculateReplaceCost(elementA, elementB) {
 }
 
 function levenDistance(tokensA, tokensB) {
-  const lengthA = tokensA.length;
-  const lengthB = tokensB.length;
+  const lengthA = tokensA.representation.length;
+  const lengthB = tokensB.representation.length;
 
   if (lengthA === 0) {
     return lengthB;
@@ -52,66 +52,57 @@ const MAX_DISTANCE = 2;
 const MIN_NEARBY = 1;
 const NOISE_ID = 'Noise';
 
-const isCloseEnough = (macro1, macro2) => levenDistance(macro1.representation, macro2.representation) <= MAX_DISTANCE;
+const addRepresentation = (macro) => ({
+  ...macro,
+  representation: macro.tokenLines.flatMap(({ tokens }) => tokens)
+});
 
-/* https://en.wikipedia.org/wiki/DBSCAN */
+module.exports = function markSimilar(tokenized) {
+  const macros = tokenized.map(addRepresentation).filter(({ representation }) => representation.length > 0);
 
-function markClusters(macros) {
-  let nextClusterId = 0;
+  let nextGroupId = 0;
 
-  const findNearby = (macro) => macros.filter((potentialNeighour) => isCloseEnough(macro, potentialNeighour));
+  const findNearby = (macro) => macros.filter((potentialNeighour) => levenDistance(macro, potentialNeighour) <= MAX_DISTANCE);
 
-  function assignCluster(clusterId) {
-    return function assignClusterToMacro(macro) {
-      if (macro.clusterId === NOISE_ID) {
-        macro.clusterId = clusterId;
+  function assignGroup(similarityGroup) {
+    return function assignGroupToMacro(macro) {
+      if (macro.similarityGroup === NOISE_ID) {
+        macro.similarityGroup = similarityGroup;
       }
 
-      if (macro.clusterId) {
+      if (macro.similarityGroup) {
         return;
       }
 
-      macro.clusterId = clusterId;
+      macro.similarityGroup = similarityGroup;
 
       /* Grow the cluster */
       // const nextNeighbours = findNearby(macro);
       //
       // if (nextNeighbours.length >= MIN_NEARBY) {
-      //   nextNeighbours.forEach(assignClusterToMacro);
+      //   nextNeighbours.forEach(assignGroupToMacro);
       // }
     };
   }
 
   macros.forEach((macro) => {
-    if (macro.clusterId) {
+    if (macro.similarityGroup) {
       return;
     }
 
     const nearbyMacros = findNearby(macro);
 
     if (nearbyMacros.length < MIN_NEARBY) {
-      macro.clusterId = NOISE_ID;
+      macro.similarityGroup = NOISE_ID;
 
       return;
     }
 
-    nextClusterId++;
-    macro.clusterId = nextClusterId;
+    nextGroupId++;
+    macro.similarityGroup = nextGroupId;
 
-    nearbyMacros.forEach(assignCluster(nextClusterId));
+    nearbyMacros.forEach(assignGroup(nextGroupId));
   });
 
-  return macros;
-}
-
-const isClusterable = ({ representation }) => representation.length > 0;
-const addRepresentation = (macro) => ({
-  ...macro,
-  representation: flattenDeep(macro.lines)
-});
-
-module.exports = function groupSimilarTokenized(tokanized) {
-  const preparedMacros = tokanized.map(addRepresentation).filter(isClusterable);
-
-  return markClusters(preparedMacros);
+  return macros.map(({ representation, ...macro }) => macro); // eslint-disable-line no-unused-vars
 };

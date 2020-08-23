@@ -3,5 +3,6 @@ module.exports = {
   readFile: require('./readFile'),
   saveFile: require('./saveFile'),
   setDict: require('./setDict'),
-  source: require('./source')
+  source: require('./source'),
+  output: require('./output')
 };

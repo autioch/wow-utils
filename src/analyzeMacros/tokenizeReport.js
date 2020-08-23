@@ -67,17 +67,8 @@ body {
   padding: .25em;
 }
 
-.line__results > div {
-  width: 100%;
-}
 
-
-.line__results > div:nth-child(2n) {
-  background-color: #e8e8e8;
-}
-
-
-.token:not(:last-child)::after {content:'  ';display:inline-block;width:.5em;height:.5em;background-color:#d8d8d8}
+/*.token:not(:last-child)::after {content:'  ';display:inline-block;width:.5em;height:.5em;background-color:#d8d8d8} */
 .token--command,
 .token--chat,
 .token--emote,
@@ -125,32 +116,30 @@ const pickLine = ({ line }) => line;
 const sortByLine = (a, b) => a.line.localeCompare(b.line);
 const sortByType = (a, b) => a.type.localeCompare(b.type);
 const sortText = (a, b) => a.localeCompare(b);
-const div = (val, className) => `<div${className ? ` ${className}` : ''}>${val}</div>`;
-const pre = ({ items }) => `<pre class="line__results">${JSON.stringify(items, null, '  ').split('\n').map(div)}</pre>`;
 
 const renderSummaryItem = ({ type, values }) => `
-  <div className="summary__row">
-    <div className="summary__type">${type}</div>
-    <div className="summary__texts">${values.join(', ')}</div>
+  <div class="summary__row">
+    <div class="summary__type">${type}</div>
+    <div class="summary__texts">${values.join(', ')}</div>
   </div>
 `;
 
-const renderToken = ({ type, value }) => `<span class="token token--${type} title=${type}>${type === 'space' ? '*' : value}</span>`;
+const renderToken = ({ type, value }) => `<span class="token token--${type}" title="${type}">${type === 'space' ? '*' : value}</span>`;
 
 const renderParsed = ({ line, tokens, grammar }) => `
-  <div className="line">
-    <div className="line__original">${line}</div>
-    <div className="line__grammar">${grammar}</div>
-    <div className="line__results">
+  <div class="line">
+    <div class="line__original">${line}</div>
+    <div class="line__grammar">${grammar}</div>
+    <div class="line__results">
       ${tokens.map(renderToken).join('\n')}
     </div>
   </div>
 `;
 
 const renderFailed = ({ line, message, grammar }) => `
-  <div className="line">
-    <div className="line__original">${line}</div>
-    <div className="line__grammar">${grammar}</div>
+  <div class="line">
+    <div class="line__original">${line}</div>
+    <div class="line__grammar">${grammar}</div>
     ${message}
   </div>
 `;
@@ -159,7 +148,7 @@ const renderAmbiguous = ({ line, grammar, tokens = [] }) => `
   <div class="line">
     <div class="line__original">${line}</div>
     <div class="line__grammar">${grammar}</div>
-    ${tokens.map(pre).join('')}
+    <div class="line__results">${JSON.stringify(tokens, null, '  ')}</div>
   </div>
 `;
 
@@ -189,7 +178,7 @@ function getSummary(lines) {
   })).sort(sortByType);
 }
 
-module.exports = function render(tokenized) {
+module.exports = function tokenizeReport(tokenized) {
   const lines = uniqBy(tokenized.flatMap(pickTokenLines), pickLine).sort(sortByLine);
   const summary = getSummary(lines);
   const parsed = lines.filter((line) => !!GRAMMARS[line.grammar] && line.parsed && !line.ambiguous);
@@ -201,14 +190,14 @@ module.exports = function render(tokenized) {
     <style type="text/css">${styles}</style>
   </head>
   <body>
-    <div className="App">
-      <div className="group__header">Summary</div>
-      <div className="summary">${summary.map(renderSummaryItem).join('\n')}</div>
-      <div className="group__header">Ambiguous (${ambiguous.length}/${lines.length})</div>
+    <div class="App">
+      <div class="group__header">Summary</div>
+      <div class="summary">${summary.map(renderSummaryItem).join('\n')}</div>
+      <div class="group__header">Ambiguous (${ambiguous.length}/${lines.length})</div>
       ${ambiguous.map(renderAmbiguous).join('\n')}
-      <div className="group__header">Failed (${failed.length}/${lines.length})</div>
+      <div class="group__header">Failed (${failed.length}/${lines.length})</div>
       ${failed.map(renderFailed).join('\n')}
-      <div className="group__header">Parsed (${parsed.length}/${lines.length})</div>
+      <div class="group__header">Parsed (${parsed.length}/${lines.length})</div>
       ${parsed.map(renderParsed).join('\n')}
     </div>
   </body>
