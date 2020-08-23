@@ -1,19 +1,7 @@
-const organizeAddonConfigs = require('./organizeAddonConfigs');
-const organizeClientConfigs = require('./organizeClientConfigs');
-const getTags = require('./getTags');
-const getMacros = require('./getMacros');
-const getMounts = require('./getMounts');
-const getSpells = require('./getSpells');
+const organizeConfigs = require('./organizeConfigs');
+const prepareTags = require('./prepareTags');
 
 module.exports = {
-  organizeAddonConfigs,
-  organizeClientConfigs,
-  getTags,
-  getMacros,
-  getMounts,
-  getSpells
+  ...organizeConfigs,
+  ...prepareTags
 };
-
-if (require.main === module) {
-  require('./runAsMain');
-}

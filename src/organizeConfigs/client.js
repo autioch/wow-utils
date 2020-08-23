@@ -1,5 +1,5 @@
 const { uniq } = require('lodash');
-const { findFiles, readFile, setDict } = require('./utils');
+const { findFiles, readFile, setDict } = require('../utils');
 
 const settingToText = ({ key, values }) => {
   if (values.length > 1) {

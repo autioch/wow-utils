@@ -20,5 +20,5 @@ module.exports = function getMounts() {
     console.log(`Not all mounts have names? Total: ${all.length}, filtered: ${allFiltered.length}`);
   }
 
-  return uniq(all).sort(sortLabel);
+  return uniq(allFiltered).sort(sortLabel);
 };

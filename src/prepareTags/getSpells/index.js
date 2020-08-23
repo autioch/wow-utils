@@ -7,13 +7,14 @@ const expansions = require('./expansions.json');
 
 const BASE_URL = '-twinhead.twinstar.cz/?spells=';
 
-function fetchSpells(expansion, categoryId) {
+function fetchSpells(expansion, categoryId, index) {
   const uri = `https://${expansion}${BASE_URL}${categoryId}`;
 
   qbLog.info(uri);
 
   return new Promise((resolve, reject) => {
-    request({
+    console.log(index);
+    setTimeout(() => request({
       uri
     }, (err, response, body) => {
       if (err) {
@@ -29,7 +30,7 @@ function fetchSpells(expansion, categoryId) {
       }
 
       return resolve(body);
-    });
+    }), index * 1000);
   });
 }
 
@@ -55,9 +56,9 @@ function parseSpells(bodyText) {
   return uniqSpellNames.sort(sortText);
 }
 
-async function getSpellsForDefinition({ expansion, category }) {
+async function getSpellsForDefinition({ expansion, category }, index) {
   qbLog.info('FETCH', expansion.label, category.label);
-  const bodyText = await fetchSpells(expansion.id, category.id);
+  const bodyText = await fetchSpells(expansion.id, category.id, index);
 
   return {
     expansion,

@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "organize": "node src/index"
+    "configs": "node src/organizeConfigs/runAsMain",
+    "tags": "node src/prepareTags/runAsMain",
+    "macros": "node src/readMacros/runAsMain"
   },
   "keywords": [],
   "repository": {

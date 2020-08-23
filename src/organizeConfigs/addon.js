@@ -1,6 +1,6 @@
 const crypto = require('crypto'); // eslint-disable-line no-shadow
 const { relative } = require('path');
-const { findFiles, readFile, setDict } = require('./utils');
+const { findFiles, readFile, setDict } = require('../utils');
 
 const hashFile = (dir) => ({ fileContents, fileName }) => ({
   hash: crypto.createHash('md5').update(fileContents).digest('hex'),
