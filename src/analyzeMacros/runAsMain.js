@@ -11,8 +11,8 @@ const tokenizeReport = require('./tokenizeReport');
   const { fileContents: tagsJson } = await readFile(join(output, 'tags.json'));
   const tags = JSON.parse(tagsJson);
   const merged = mergeMacros(JSON.parse(macrosJson));
-  const tokenized = merged.map(tokenize).map((macro) => addTags(macro, tags));
+  const analyzed = merged.map(tokenize).map((macro) => addTags(macro, tags));
 
-  await saveFile('macros.analyzed', markSimilar(tokenized), true);
-  await saveFile('macros.html', tokenizeReport(tokenized));
+  await saveFile('macros.analyzed', markSimilar(analyzed), true);
+  await saveFile('macros.html', tokenizeReport(analyzed));
 })();

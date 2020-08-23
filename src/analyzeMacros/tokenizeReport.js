@@ -1,4 +1,5 @@
-const { flattenDeep, uniq, uniqBy } = require('lodash');
+const { uniqBy } = require('lodash');
+const summarize = require('./summarize');
 
 const styles = `
 body {
@@ -114,13 +115,11 @@ body {
 const pickTokenLines = ({ tokenLines }) => tokenLines;
 const pickLine = ({ line }) => line;
 const sortByLine = (a, b) => a.line.localeCompare(b.line);
-const sortByType = (a, b) => a.type.localeCompare(b.type);
-const sortText = (a, b) => a.localeCompare(b);
 
-const renderSummaryItem = ({ type, values }) => `
+const renderSummaryItem = ({ label, value }) => `
   <div class="summary__row">
-    <div class="summary__type">${type}</div>
-    <div class="summary__texts">${values.join(', ')}</div>
+    <div class="summary__type">${label}</div>
+    <div class="summary__texts">${value}</div>
   </div>
 `;
 
@@ -159,33 +158,14 @@ const GRAMMARS = {
   generic: true
 };
 
-function getSummary(lines) {
-  const dict = lines.reduce((obj, lineInfo) => {
-    flattenDeep(lineInfo.tokens).forEach((token) => {
-      if (obj[token.type]) {
-        obj[token.type].push(token.value);
-      } else {
-        obj[token.type] = [token.value];
-      }
-    });
-
-    return obj;
-  }, {});
-
-  return Object.entries(dict).map(([type, values]) => ({
-    type,
-    values: uniq(values).sort(sortText)
-  })).sort(sortByType);
-}
-
 module.exports = function tokenizeReport(tokenized) {
   const lines = uniqBy(tokenized.flatMap(pickTokenLines), pickLine).sort(sortByLine);
-  const summary = getSummary(lines);
+  const summary = summarize(tokenized);
   const parsed = lines.filter((line) => !!GRAMMARS[line.grammar] && line.parsed && !line.ambiguous);
   const ambiguous = lines.filter((line) => !!GRAMMARS[line.grammar] && line.parsed && line.ambiguous);
   const failed = lines.filter((line) => !!GRAMMARS[line.grammar] && !line.parsed);
 
-  return `<!DOCTYPE html>i<html lang="en">
+  return `<!DOCTYPE html><html lang="en">
   <head>
     <style type="text/css">${styles}</style>
   </head>
